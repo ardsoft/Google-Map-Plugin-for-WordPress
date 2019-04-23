@@ -1,0 +1,36 @@
+
+.modal-dialog {
+  position:absolute;
+  top:50% !important;
+  transform: translate(0, -50%) !important;
+  -ms-transform: translate(0, -50%) !important;
+  -webkit-transform: translate(0, -50%) !important;
+  margin:auto 30%;
+  width:auto;
+}
+
+#dmlSettingsAlertText{
+  text-align: left !important;
+}
+
+@media (max-width: 768px) {
+  .modal-dialog {
+    margin:10px;
+    width:90%;
+  }
+}
+.dmlselectdistancediv{
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.dmlMarkerIconsList {
+  margin: 12px 12px 0px 0px; 
+  border: solid 2px white;
+  float:left;
+}
+.dmlMarkerContainersList {
+  margin: 2px; 
+  border: solid 2px white;
+  float:left;
+}
